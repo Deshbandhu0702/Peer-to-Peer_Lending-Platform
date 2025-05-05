@@ -1,0 +1,10 @@
+[package]
+name = "p2p-lending"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+soroban-sdk = "20.0.0"  # Replace with latest if available
